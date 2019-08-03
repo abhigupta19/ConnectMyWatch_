@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        app:cardBackgroundColor="#FFFF99	">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="COMPLETE 100% SYLLABUS"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="31dp"
+                android:fontFamily="@font/vidaloka"
+                android:text="GET 100% REFUND"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="50dp"
+                android:text="Terms &amp; Condition apply"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="-45dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="19dp"
+                android:background="@drawable/buttonstyle"
+                android:elevation="5dp"
+                android:fontFamily="serif"
+                android:shadowRadius="5"
+                android:text="Upgrade Today"
+                android:textColor="@android:color/background_light"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="75dp"
+                android:layout_height="71dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="44dp"
+                app:srcCompat="@drawable/card_first_image" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:outlineAmbientShadowColor="@android:color/darker_gray"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="5dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="43dp"
+                app:srcCompat="@drawable/ic_mr_button_connected_13_light" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="20dp"
+                android:text="Your free trial expired on 29 Jan 2019"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="15dp"
+                android:text=" please upgrade now to get full access."
+                android:textColor="@android:color/darker_gray" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="301dp"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/button_style_second"
+                android:fontFamily="serif-monospace"
+                android:text="Upgrade now"
+                android:textColor="@android:color/background_light" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:text=" Subjects"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="272dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/design_default_color_primary_dark"
+                android:elevation="5dp"
+                android:outlineSpotShadowColor="@android:color/darker_gray"
+                app:cardBackgroundColor="@color/design_default_color_primary_dark"
+                app:cardCornerRadius="5dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView10"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="88dp"
+                        android:layout_marginTop="-1dp"
+                        android:text="Progress" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="60dp"
+                        android:layout_height="38dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@color/colorAccent"
+                        app:srcCompat="@drawable/ic_audiotrack_light" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="103dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="87dp"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/vidaloka"
+                        android:text="Mental Ablity"
+                        android:textSize="16sp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="161dp"
+                        android:layout_height="5dp"
+                        android:layout_below="@+id/textView10"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_toEndOf="@+id/textView11"
+                        android:background="@color/colorAccent" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="31dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/progressBar"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="-18dp"
+                        android:layout_marginTop="-4dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_toEndOf="@+id/progressBar"
+                        android:text="0%"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="8sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

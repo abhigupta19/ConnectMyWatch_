@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:state_checked="true" />
+    <item
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_mr_button_connected_04_dark"
+        android:title="TEST"
+
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/mr_media_play_dark"
+        android:title="ANALYSIS"
+        android:enabled="true"
+
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/mr_group_expand"
+        android:title="DOUBTS"
+        android:enabled="true"
+
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_audiotrack_dark"
+        android:title="PROFILE"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+</menu>
